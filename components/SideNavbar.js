@@ -15,7 +15,7 @@ import { BiMessageSquareDots } from "react-icons/bi";
 
 function SideNavbar() {
   return (
-    <div>
+    <div className="">
       <Disclosure as="nav">
         <Disclosure.Button className="absolute top-4 right-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
           <GiHamburgerMenu
